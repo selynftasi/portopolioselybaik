@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Sely</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Sely Nofitasari</h1>
+<p class="subtitle">Web Developer</p>
+
+<nav>
+  <button class="tab-btn active" onclick="showTab('about', event)">Tentang Saya</button>
+  <button class="tab-btn" onclick="showTab('data', event)">Data Diri</button>
+  <button class="tab-btn" onclick="showTab('experience', event)">Pengalaman</button>
+  <button class="tab-btn" onclick="showTab('skills', event)">Skills</button>
+  <button class="tab-btn" onclick="showTab('certificates', event)">Sertifikat</button>
+  <button class="tab-btn" onclick="showTab('contact', event)">Sosial Media</button>
+</nav>
+
+<!-- TENTANG SAYA -->
+<div id="about" class="tab-content">
+  <center>
+    <img src="img/sely.jpeg" alt="Foto Sely">
+  </center>
+  <h2>HAIIII</h2>
+  <p>
+    Saya <strong>Sely Nofitasari</strong>, lulusan SMK Teknik Komputer Jaringan
+    dengan pengalaman PKL di bidang jaringan dan troubleshooting.
+    Teliti, bertanggung jawab, dan mampu bekerja secara tim maupun individu.
+    Siap bekerja dengan baik dan terus belajar.
+  </p>
+</div>
+
+<!-- DATA DIRI -->
+<div id="data" class="tab-content" style="display:none;">
+  <div class="bubble">Nama Lengkap : Sely Nofitasari</div>
+  <div class="bubble">Tempat, Tanggal Lahir : Blitar, 20 November 2007</div>
+  <div class="bubble">Alamat : Sumberagung, RT 03/RW 06, Gandusari, Blitar</div>
+  <div class="bubble">Pendidikan Terakhir : SMKN 01 NGLEGOK</div>
+</div>
+
+<!-- PENGALAMAN -->
+<div id="experience" class="tab-content" style="display:none;">
+  <div class="bubble">Magang di CV RAYA UNGGUL PERKASA</div>
+  <div class="bubble">Pemasangan CCTV</div>
+  <div class="bubble">Pemasangan Wifi</div>
+  <div class="bubble">Pemasangan ODP</div>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="tab-content" style="display:none;">
+  <h2>HARD SKILL</h2>
+  <div class="bubble">Basic Configuration SSH</div>
+  <div class="bubble">Network Configuration, User dan Group, Web Server (Apache)</div>
+  <div class="bubble">Crimping Kabel</div>
+  <div class="bubble">Suplicing</div>
+  <div class="bubble">Configuration Mikrotik</div>
+
+  <h2>SOFT SKILL</h2>
+  <div class="bubble">Komunikasi</div>
+  <div class="bubble">Kolaborasi dan bekerja sama dalam tim</div>
+  <div class="bubble">Selalu ingin mempelajari hal-hal baru</div>
+  <div class="bubble">Bertanggung jawab</div>
+</div>
+
+<!-- SERTIFIKAT -->
+<div id="certificates" class="tab-content" style="display:none;">
+  <div class="certificates-gallery">
+    <div class="certificates-card"><img src="img/sertifikatsely1.jpeg" alt="Sertifikat 1"></div>
+    <div class="certificates-card"><img src="img/sertifikatsely2.jpeg" alt="Sertifikat 2"></div>
+    <div class="certificates-card"><img src="img/sertifikatsely3.jpeg" alt="Sertifikat 3"></div>
+    <div class="certificates-card"><img src="img/sertifikatsely4.jpeg" alt="Sertifikat 4"></div>
+    <div class="certificates-card"><img src="img/sertifikatsely5.jpeg" alt="Sertifikat 5"></div>
+    <div class="certificates-card"><img src="img/sertifikatsely6.jpeg" alt="Sertifikat 6"></div>
+  </div>
+</div>
+
+<!-- SOSIAL MEDIA -->
+<div id="contact" class="tab-content" style="display:none;">
+  <p>Email: <a href="mailto:studyselynofita18@gmail.com" target="_blank">studyselynofita18@gmail.com</a></p>
+  <p>Blogger: <a href="https://wtshisely.blogspot.com/" target="_blank">wtshisely.blogspot.com</a></p>
+  <p>Instagram: <a href="https://instagram.com/selynofita18" target="_blank">@selynofita18</a></p>
+  <p>YouTube: <a href="https://www.youtube.com/@squad.net078" target="_blank">@squad.net078</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/sely-nofitasari-41a17632a/" target="_blank">Sely Nofitasari</a></p>
+</div>
+
+<footer>
+  <div class="footer-content">
+    <p>© 2025 Sely Nofitasari | Portofolio | All Rights Reserved</p>
+
+    <div class="social-links">
+      <a href="https://instagram.com/selynofita18" target="_blank"><img src="img/logo ig.png" alt="IG"></a>
+      <a href="https://wtshisely.blogspot.com/" target="_blank"><img src="img/logo blogger.png" alt="Blogger"></a>
+      <a href="mailto:studyselynofita18@gmail.com" target="_blank"><img src="img/logo email.png" alt="Email"></a>
+      <a href="https://www.youtube.com/@squad.net078" target="_blank"><img src="img/logo yt.png" alt="YouTube"></a>
+      <a href="https://www.linkedin.com/in/sely-nofitasari-41a17632a/" target="_blank"><img src="img/logo linkedin.png" alt="LinkedIn"></a>
+    </div>
+
+    <p class="made">Dibuat dengan penuh kesabaran semangat dan nyantai</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
